@@ -1,0 +1,584 @@
+{
+  "UploadedDocketDetails": {
+    "id": "5e84b844235400f3e9bd43be",
+    "taskId": 2508,
+    "subscriberId": "S2508",
+    "externalRefId": "5e7b9d741cb14a1fe6727b31",
+    "portalDocketId": "PDID01",
+    "docketName": "DOCKET_12345098",
+    "status": "Progress",
+    "subStatus": "Failed-OCR",
+    "pageCount": 10,
+    "action": "In progress",
+    "clientId": "1022723",
+    "clientName": "Alight DPSS Data Ops",
+    "docketPath": "//Homles/DPSS/Converted",
+    "classificationStatus": "Extracted",
+    "reasonForReject": "Meri Marzi",
+    "userComments": "No Comment Please",
+    "statusDate": "2019-12-12T10:19:00.340+0000",
+    "submittedDate": "2019-12-12T10:19:00.340+0000",
+    "docketReceivedDate": "2019-12-12T10:19:00.340+0000",
+    "filesInDocket": [
+      {
+        "id": "5ec4eecbb42a3c0001e9376b",
+        "uploadedDocketId": "UDID09876",
+        "fileName": "File One",
+        "filePath": "//Homles/DPSS/Converted",
+        "status": "In-Progress",
+        "isDir": true,
+        "createdDate": "2019-12-12T10:19:00.340+0000",
+        "modifiedDate": "2019-12-12T10:19:00.340+0000",
+        "documentPages": [
+          {
+            "id": "5ec4eecbb42a3c0001e93767",
+            "uploadedDocketId": "UDID0987600",
+            "derivedPageClass": "Class-C1",
+            "derivedDocumentType": "Class-C2",
+            "pageClass": "Page-P1",
+            "documentType": "Doc-D1",
+            "pageNum": "01",
+            "threshold": "02",
+            "hocrPath": "HOCR/PATH",
+            "imagePath": "IMG/PATH",
+            "group": "group",
+            "groupSequence": 2,
+            "status": "In progress",
+            "subStatus": "Sub-progress",
+            "attributesSavedStatus": "Saved",
+            "processedTime": "2019-12-12T10:19:00.340+0000",
+            "manualCorrection": true,
+            "manualReviewByUserId": "User-1",
+            "manualReviewByUser": "Pravin Mane",
+            "manualReviewDate": "2019-12-12T10:19:00.340+0000",
+            "docketId": "DOCKET098765",
+            "extractedDate": "Wed Apr 01 21:09:35 IST 2020",
+            "classificationDate": "Wed Apr 01 21:09:35 IST 2020",
+            "formProcessAttributes": [
+              {
+                "id": "5ec4eecbb42a3c0001e93766",
+                "fetchedAttributeId": "F1",
+                "fetchedAttributeName": "FA 1",
+                "referenceAttributeName": "FA REF 1",
+                "coordinates": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "fetchedValue": "Fetched Value",
+                "modifiedValue": "Modified Value",
+                "referenceValue": "Reference Value",
+                "matchScore": 75,
+                "matchEntityId": "Entity 01",
+                "updatedMatchEntityId": "Updated Entity 02",
+                "isDependent": true,
+                "createdDate": "2019-12-12T10:19:00.340+0000",
+                "modifiedDate": "2019-12-12T10:19:00.340+0000",
+                "validationStatus": "Failed",
+                "confidenceScore": "25",
+                "attributeExtractionDate": "Wed Apr 01 21:09:35 IST 2020",
+                "errorString": "gfgfdg.",
+                "attributeType": "rteyte6.",
+                "manualCorrection": false,
+                "manualReviewByUserId": "1022723",
+                "manualReviewByUser": "Pravin Mane Sahab.",
+                "manualReviewDate": "2019-12-12T10:19:00.340+0000",
+                "modifiedBy": "@345.",
+                "l1_accuracy": 0.1,
+                "l2_accuracy": 0.1,
+                "mandatoryStatus": true,
+                "foundIn": "Stanlin ka dabba",
+                "maxLength": "0,1,......N",
+                "sequence": 0,
+                "displayName": "nm."
+              }
+            ],
+            "createdDate": "2019-12-12T10:19:00.340+0000",
+            "modifiedDate": "2019-12-12T10:19:00.340+0000",
+            "pageNumInt": 1
+          }
+        ],
+        "classificationStatus": "Extracted",
+        "taskId": 123,
+        "extractedDate": "Wed Apr 01 21:09:35 IST 2020",
+        "classificationDate": "Wed Apr 01 21:09:35 IST 2020",
+        "smeConfidenceBarThresholds": [
+          1,
+          2,
+          3
+        ],
+        "smeThumbnailPresent": true,
+        "smeRefDataPresent": true,
+        "processorFlag": "true",
+        "htmlFileName": "FileOne.html",
+        "htmlFilePath": "//Homles/DPSS/Converted",
+        "docProcessAttributes": [
+          {
+            "id": "5ec4eecbb42a3c0001e9376a",
+            "groupedAttributes": [
+              {
+                "id": "5ec4eecbb42a3c0001e93768",
+                "attributeName": "GA 1",
+                "attributeGroup": "group",
+                "attributeType": "Type 1",
+                "fileName": "File 1",
+                "priority": "1",
+                "lineId": [
+                  [
+                    "1"
+                  ]
+                ],
+                "attributeValue": [
+                  "value 1"
+                ],
+                "rawText": [
+                  "rwa 1"
+                ],
+                "documentType": "Bene Auth",
+                "userComment": "Faltu hai ye sab",
+                "validationStatus": false,
+                "rejected": true,
+                "confidenceScore": [
+                  "2"
+                ],
+                "l1_accuracy": 0.1,
+                "l2_accuracy": 0.1,
+                "manualCorrection": false,
+                "manualReviewByUserId": "P002",
+                "manualReviewByUser": "Pravin",
+                "manualReviewDate": "2019-12-12T10:19:00.340+0000",
+                "attributeExtractionDate": "Wed Apr 01 21:09:35 IST 2020",
+                "fetchedAttributeId": "FA001",
+                "clauseName": "clause Name",
+                "modifiedValue": [
+                  "val1"
+                ],
+                "modifiedDate": "2019-12-12T10:19:00.340+0000",
+                "createdDate": "2019-12-12T10:19:00.340+0000",
+                "modifiedBy": "Pravin Mane",
+                "sequence": 1,
+                "displayName": "yrytyryt",
+                "matchScore": 0,
+                "referenceAttributeName": "REF ATTR 2",
+                "referenceValue": "REF VAL 3",
+                "matchEntityId": "E0087",
+                "matchStatus": "Not Matched",
+                "mandatory": false
+              }
+            ],
+            "clauses": [
+              {
+                "id": "5ec4eecbb42a3c0001e93769",
+                "paraLineIds": [
+                  [
+                    "01",
+                    "02"
+                  ]
+                ],
+                "fileName": "File 2",
+                "documentType": "PEA",
+                "attributeGroup": "GI JO",
+                "priority": "0",
+                "abstractedData": [
+                  "A1",
+                  "A2"
+                ],
+                "l1_accuracy": 0.2,
+                "l2_accuracy": 0.3,
+                "manualCorrection": false,
+                "manualReviewByUserId": "4325",
+                "manualReviewByUser": "Pravin",
+                "manualReviewDate": "2019-12-12T10:19:00.340+0000",
+                "attributeExtractionDate": "Wed Apr 01 21:09:35 IST 2020",
+                "fetchedAttributeId": "F003",
+                "clauseName": "C1",
+                "confidenceScore": [
+                  "0",
+                  "1"
+                ],
+                "modifiedData": [
+                  "data 1",
+                  "data 2"
+                ],
+                "modifiedDate": "2019-12-12T10:19:00.340+0000",
+                "createdDate": "2019-12-12T10:19:00.340+0000",
+                "modifiedBy": "Pravin",
+                "sequence": 0,
+                "displayName": "Mr. Ajay",
+                "matchScore": 0,
+                "referenceAttributeName": "Ref ATTr 78",
+                "referenceValue": "Ref Val 5456",
+                "matchEntityId": "ME4567",
+                "matchStatus": "Not Matched"
+              }
+            ],
+            "start_Page": "01",
+            "end_Page": "02",
+            "modifiedBy": "Narhari",
+            "modifiedDate": "2019-12-12T10:19:00.340+0000",
+            "sequence": 1,
+            "matchScore": 5,
+            "referenceAttributeName": "Ref Attr NM 1",
+            "referenceValue": "Ref Val 1",
+            "matchEntityId": "Match Entity 1",
+            "matchStatus": "Not Matched",
+            "oldDocumentType": "Old is Gold"
+          }
+        ]
+      }
+    ],
+    "createdDate": "2019-12-12T10:19:00.340+0000",
+    "modifiedDate": "2019-12-12T10:19:00.340+0000",
+    "dataOpsReviewedDate": "2019-12-12T10:19:00.340+0000",
+    "dataOpsReviewerId": "1022723",
+    "dataOpsReviewerName": "Narhari",
+    "assistedOpsReviewerId": "1022723",
+    "assistedOpsReviewerName": "Pravin",
+    "assistedOpsReviewedDate": "2019-12-12T10:19:00.340+0000",
+    "version": "1.0",
+    "lob": "HWS>DPSS>Beneauth>All",
+    "inputSourceId": "Wipro",
+    "classifiedDate": "2019-12-12T10:19:00.340+0000",
+    "classificationType": "BeneAuth",
+    "snapshots": [
+      {
+        "id": "5ec4eecbb42a3c0001e9376c",
+        "attributeGroupName": "Snapshots One"
+      }
+    ],
+    "smeSlaTime": 15,
+    "slaBarThresholds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "processorFlag": "true",
+    "solutionType": "Structure",
+    "clientDocketPath": "//Homles/DPSS/Converted/Processed",
+    "managerId": "P001",
+    "slaStartTime": "2019-12-12T10:19:00.340+0000",
+    "slaEndTime": "2019-12-12T10:19:00.340+0000",
+    "managerComments": "managerComments"
+  },
+  "groups": [
+    {
+      "GroupQuestionName": "Questionnaire_5",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "'Is 'Sign & Date Page' available in the form",
+      "QuestionCode": "Quest_28",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "32",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_6",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "'Is 'Statement Date Page' available in the form",
+      "QuestionCode": "Quest_27",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "31",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_22",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Activity Reference Number",
+      "QuestionCode": "Activity_Reference_Number",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_13",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Are more than one Document Type s not scanned together",
+      "QuestionCode": "Quest_41",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "14",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_14",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Are more than one PPT's request not scanned together",
+      "QuestionCode": "Quest_40",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "13",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_20",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Client ID",
+      "QuestionCode": "Client_ID",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_3",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Client Name",
+      "QuestionCode": "Client_Name",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_17",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Death Certificate (Name of Decesed)",
+      "QuestionCode": "Death_Certificate_Name_of_Decesed",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_16",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Divorce Decree (Name of Both Divorcee and Date of Divorce)",
+      "QuestionCode": "Divorce_Decree_Name_of_Both_Divorcee_and_Date_of_Divorce",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_24",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Document Type",
+      "QuestionCode": "Document_Type",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_11",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Does form contains Participant's signature and date on designated line",
+      "QuestionCode": "Quest_11",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "19",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_25",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Employee Number",
+      "QuestionCode": "Employee_Number",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_21",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Internal ID",
+      "QuestionCode": "Internal_ID",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_4",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Is 'Bene Design. Section' page available in the form",
+      "QuestionCode": "Quest_157",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "33",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_10",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Is Participant's signature on form matching with Participant's name in TBA",
+      "QuestionCode": "Quest_13",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "20",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_8",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Is Total %age is 100% for all beneficiary tables?",
+      "QuestionCode": "Quest_156",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "26",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_15",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Is the form in English language",
+      "QuestionCode": "Quest_7",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "12",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_7",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Is there any marital status note recevied from PPT?",
+      "QuestionCode": "Quest_17",
+      "ResponseType": "Dropdown",
+      "QuestionTarget": "Screen",
+      "SortOrder": "27",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_12",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Is there no handwritten addition or changes in Beneficiary designations table",
+      "QuestionCode": "Quest_10",
+      "ResponseType": "CheckBox",
+      "QuestionTarget": "Screen",
+      "SortOrder": "17",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_27",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Participant Address",
+      "QuestionCode": "Participant_Address",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_28",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Participant Name",
+      "QuestionCode": "Participant_Name",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_9",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Participant's Sign Date",
+      "QuestionCode": "PPT_Sign_Date",
+      "ResponseType": "DateSelection",
+      "QuestionTarget": "Screen",
+      "SortOrder": "21",
+      "IsMandatory": "1",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_23",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Plan Name",
+      "QuestionCode": "Plan_Name",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_19",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Return By Date",
+      "QuestionCode": "Return_By_Date",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_18",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Revocable/Irrevocable Section",
+      "QuestionCode": "Revocable_or_Irrevocable_Section",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    },
+    {
+      "GroupQuestionName": "Questionnaire_26",
+      "Plan_Name": "Basic Life",
+      "QuestionText": "Statement Date",
+      "QuestionCode": "Statement_Date",
+      "ResponseType": "Text",
+      "QuestionTarget": "Field",
+      "SortOrder": "1",
+      "IsMandatory": "0",
+      "Response": "",
+      "Result": ""
+    }
+  ],
+  "login": {
+    "userId": "kapil",
+    "password": "kapilgupta"
+  }
+}
